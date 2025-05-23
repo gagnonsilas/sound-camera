@@ -20,7 +20,7 @@
       rec {
 
         devShells.default = pkgs.mkShell {
-          name = "ev25";
+          name = "sound-camera";
           packages = with pkgs; [
             stm32cubemx
             gcc-arm-embedded

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "QFS-026-04")(type "KiCad")(uri "/home/silas/Goatworks/kicad/goatworks-footprint-library.pretty/QFS-026-04.pretty")(options "")(descr ""))
+)
