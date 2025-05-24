@@ -8,12 +8,12 @@
     "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
-      "images": 0.6,
+      "images": 1.0,
       "pads": 1.0,
-      "shapes": 1.0,
+      "shapes": 0.4300000071525574,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6
+      "zones": 0.38999998569488525
     },
     "selection_filter": {
       "dimensions": true,
@@ -72,6 +72,8 @@
       false,
       false,
       false,
+      false,
+      false,
       false
     ],
     "col_order": [
@@ -84,19 +86,23 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11
     ],
     "col_widths": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      174,
+      159,
+      113,
+      78,
+      113,
+      113,
+      113,
+      80,
+      113,
+      113,
+      113,
+      659
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -108,7 +114,7 @@
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
-    "sorting_column": 0
+    "sorting_column": 11
   },
   "open_jobsets": [],
   "project": {
