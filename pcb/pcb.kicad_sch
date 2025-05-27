@@ -1014,192 +1014,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCU_ST_STM32G0:STM32G0B1KBUx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2891,12 +2705,6 @@
 		(uuid "348d0f2f-3a74-4751-873d-8ec54ee826d1")
 	)
 	(junction
-		(at 152.4 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36244c28-bef7-4876-a4e6-54af49d098fb")
-	)
-	(junction
 		(at 251.46 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2925,12 +2733,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82b0e736-cdf0-48bb-acde-9b30bd0c4fb9")
-	)
-	(junction
-		(at 144.78 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89397c6c-8cb9-467e-8488-1fcf91afd014")
 	)
 	(junction
 		(at 245.11 77.47)
@@ -3022,16 +2824,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 124.46) (xy 152.4 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11c5c098-44c8-4aec-9548-5afeba5e6da7")
-	)
-	(wire
-		(pts
 			(xy 139.7 176.53) (xy 142.24 176.53)
 		)
 		(stroke
@@ -3092,13 +2884,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 124.46) (xy 152.4 124.46)
+			(xy 142.24 121.92) (xy 139.7 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "39c66311-ee42-4883-9ffd-f191f96e9377")
+		(uuid "3d49990a-6e12-4202-978b-a630e800df5c")
 	)
 	(wire
 		(pts
@@ -3342,16 +3134,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 123.19) (xy 152.4 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e867fd5-8da9-4015-be30-47de6df7a3a9")
-	)
-	(wire
-		(pts
 			(xy 132.08 71.12) (xy 142.24 71.12)
 		)
 		(stroke
@@ -3382,7 +3164,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 121.92) (xy 139.7 121.92)
+			(xy 156.21 121.92) (xy 147.32 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3399,16 +3181,6 @@
 			(type default)
 		)
 		(uuid "a5b7b4f5-6b7c-43cd-a56c-a754e6a61ea6")
-	)
-	(wire
-		(pts
-			(xy 144.78 130.81) (xy 144.78 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5fb27b1-9aa2-4dc1-a96c-b2164d562fb5")
 	)
 	(wire
 		(pts
@@ -3472,7 +3244,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 124.46) (xy 144.78 124.46)
+			(xy 139.7 124.46) (xy 142.24 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3599,6 +3371,16 @@
 			(type default)
 		)
 		(uuid "dd74b9f7-ea27-4ac9-8faf-50aa7c644f06")
+	)
+	(wire
+		(pts
+			(xy 142.24 124.46) (xy 142.24 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f1f544-a314-4f01-809b-14f823a6373e")
 	)
 	(wire
 		(pts
@@ -3931,7 +3713,7 @@
 		(uuid "eb0c8857-0f67-4b5d-8aa1-9c5c3980e83a")
 	)
 	(label "SPEAKER"
-		(at 148.59 121.92 180)
+		(at 156.21 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4080,72 +3862,6 @@
 			(project ""
 				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 152.4 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b86c07d-9a51-44e4-a7e8-218af3f42238")
-		(property "Reference" "#PWR015"
-			(at 152.4 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 152.4 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57d47f29-7ef7-4957-9906-40557621df56")
-		)
-		(instances
-			(project "pcb"
-				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4914,76 +4630,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 152.4 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37e1d206-5d76-445c-ad68-3aa2d75e0c83")
-		(property "Reference" "C5"
-			(at 154.94 127.0062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 154.94 129.5462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "95605fe2-d650-4586-91bf-f2535ade5125")
-		)
-		(pin "1"
-			(uuid "8a73939d-29aa-4e4f-bfea-dfa5a84b53ac")
-		)
-		(instances
-			(project "pcb"
-				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 139.7 163.83 0)
 		(mirror y)
@@ -5326,142 +4972,6 @@
 			(project "pcb"
 				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
 					(reference "M2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 152.4 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57b3e07e-7c68-435f-8eb1-2fcb17904347")
-		(property "Reference" "#PWR014"
-			(at 152.4 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 152.4 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 152.4 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75cff4bc-cf8a-454a-8fba-a8c4d698164b")
-		)
-		(instances
-			(project ""
-				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 152.4 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58dbdc16-7739-42f9-b31b-da1dfdbaf087")
-		(property "Reference" "C6"
-			(at 154.94 119.3862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 154.94 121.9262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 152.4 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 152.4 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8af664d5-5d3c-4770-8288-04e29e1d9701")
-		)
-		(pin "1"
-			(uuid "5f3ab9b8-4de4-4474-ac3e-5e7d67c8a91c")
-		)
-		(instances
-			(project ""
-				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6247,7 +5757,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 130.81 0)
+		(at 142.24 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6256,7 +5766,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a0ea178-c302-4e33-be57-e5bdff28a3bc")
 		(property "Reference" "#PWR016"
-			(at 144.78 137.16 0)
+			(at 142.24 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6265,7 +5775,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 135.89 0)
+			(at 142.24 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6273,7 +5783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 130.81 0)
+			(at 142.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6282,7 +5792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 130.81 0)
+			(at 142.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6291,7 +5801,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 130.81 0)
+			(at 142.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6376,77 +5886,6 @@
 			(project "pcb"
 				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 144.78 128.27 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ffa1ef7-11f7-4633-a1d0-7414c1607195")
-		(property "Reference" "JP1"
-			(at 138.938 128.524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 129.032 149.098 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 144.78 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 144.78 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "00675474-7e6c-4351-87b3-3b1d15b27b46")
-		)
-		(pin "1"
-			(uuid "437d16d6-149e-437e-b241-716a7c9bd14c")
-		)
-		(instances
-			(project ""
-				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -7213,6 +6652,76 @@
 			(project ""
 				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 144.78 121.92 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f12607f5-bd9a-4ac6-9f20-924f3800a117")
+		(property "Reference" "C14"
+			(at 145.288 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 143.51 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 144.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 144.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e1b49f8a-d6de-4555-9342-ac1a0f2c7728")
+		)
+		(pin "1"
+			(uuid "52d6ecf2-e881-4902-9c08-da38a06d2b71")
+		)
+		(instances
+			(project "pcb"
+				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
+					(reference "C14")
 					(unit 1)
 				)
 			)
