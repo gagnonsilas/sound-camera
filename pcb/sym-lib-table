@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ev24")(type "KiCad")(uri "/home/silas/projects/ev25/common/ev24.kicad_sym")(options "")(descr ""))
+)

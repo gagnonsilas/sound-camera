@@ -1,4 +1,4 @@
-213237592542800
+216734725341503
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101379,7 +101379,7 @@ CONN04_5055670471_MOL
 5055670471 
 0
 6
-6
+5
 goatworks-footprint-library
 CUBE
 
@@ -101808,6 +101808,13 @@ SiAA40DJ N-Channel MOSFET
 8
 3
 goatworks-footprint-library
+T3902
+Infineon, IP57, XENSIV, LGA-5, https://www.infineon.com/dgdl/Infineon-IM73A135-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c7f2a768a017fadec36b84500
+MEMS Microphone LGA Dust Water
+0
+9
+5
+goatworks-footprint-library
 TAI-TECH HPC3010TF-330M
 
 
@@ -101905,6 +101912,13 @@ Untitled_2
 0
 2
 2
+goatworks-footprint-library
+Untitled_3
+
+
+0
+0
+0
 goatworks-footprint-library
 Wurth 750813x
 
