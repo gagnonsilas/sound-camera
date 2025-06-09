@@ -30,6 +30,7 @@
             gcc
             gdb
             can-utils
+            zig
             python3Packages.python-can
             (writeShellScriptBin "canup"  ''
             sudo ip link set can0 type can bitrate 1000000

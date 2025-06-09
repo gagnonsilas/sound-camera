@@ -1,2 +1,4 @@
 .direnv
 code/sound-camera
+sim/.zig-cache
+sim/zig-out
