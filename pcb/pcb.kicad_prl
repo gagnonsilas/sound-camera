@@ -10,10 +10,10 @@
     "opacity": {
       "images": 1.0,
       "pads": 1.0,
-      "shapes": 0.4300000071525574,
+      "shapes": 0.5899999737739563,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.44999998807907104
+      "zones": 0.41999998688697815
     },
     "selection_filter": {
       "dimensions": true,
