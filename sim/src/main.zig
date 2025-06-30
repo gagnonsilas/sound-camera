@@ -57,7 +57,7 @@ pub fn main() !void {
             var pressure: i16 = 0;
             for (sources) |source| {
                 const dist = camera.pos.sub(source.pos).norm();
-                std.debug.print("dist:{}\n", .{dist});
+                std.debug.print("dist:{d}\n", .{dist});
 
                 pressure += @intFromFloat(source.getPressure(@as(f32, @floatFromInt(i)) / SAMPLE_RATE, dist) * (1 << 14));
             }

@@ -17,20 +17,18 @@
         # canup = pkgs.writeShellScript
         in
       with builtins;
-      rec {
+       {
 
         devShells.default = pkgs.mkShell {
           name = "sound-camera";
           packages = with pkgs; [
-            stm32cubemx
             gcc-arm-embedded
             bear
-            openocd
             cmake
             gcc
             gdb
-            can-utils
             zig
+            zls
             python3Packages.python-can
             (writeShellScriptBin "canup"  ''
             sudo ip link set can0 type can bitrate 1000000
@@ -53,9 +51,12 @@
             vcanup
             ssh $1 candump -ta $2 | candump-fmt | canplayer -v vcan0=$2
             '')
-
-
+          ] ++ pkgs.lib.optional pkgs.stdenv.hostPlatform.isLinux [
+            stm32cubemx
+            openocd
+            can-utils
           ];
+          
         };
       }
     );
