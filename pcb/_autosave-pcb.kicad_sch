@@ -2414,7 +2414,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U4"
+			(property "Reference" "U3"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -2508,7 +2508,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2526,7 +2526,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2544,7 +2544,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6132,7 +6132,7 @@
 				)
 			)
 		)
-		(property "Footprint" "goatworks-footprint-library:OWR-061220LA-32"
+		(property "Footprint" "goatworks-footprint-library:PKMCS0909E4000-R1"
 			(at 152.019 130.81 0)
 			(effects
 				(font
