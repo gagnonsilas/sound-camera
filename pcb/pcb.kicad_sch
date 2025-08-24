@@ -198,6 +198,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -4136,6 +4243,12 @@
 		(uuid "348d0f2f-3a74-4751-873d-8ec54ee826d1")
 	)
 	(junction
+		(at 242.57 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35a3a9ca-0237-4c01-887b-e7d4219698c9")
+	)
+	(junction
 		(at 64.77 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4166,10 +4279,28 @@
 		(uuid "429ae4bf-e0fd-4bb3-892e-7bcf6d60a81e")
 	)
 	(junction
+		(at 91.44 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43cbc5d6-2902-4e7b-9952-6c1133f176ec")
+	)
+	(junction
 		(at 87.63 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48ebb140-ea9b-4513-8ad2-d2b6b0e5e172")
+	)
+	(junction
+		(at 142.24 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fd32c3e-3673-417f-b157-36ba6618c88f")
+	)
+	(junction
+		(at 81.28 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65133b34-24c2-45fa-a6a8-8c3665431a03")
 	)
 	(junction
 		(at 180.34 62.23)
@@ -4208,16 +4339,40 @@
 		(uuid "a0c46414-d1ad-406b-95d6-54423aa7c28d")
 	)
 	(junction
+		(at 60.96 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4bfc609-b9ba-4910-a9a4-929b69dda83f")
+	)
+	(junction
 		(at 137.16 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2cc3f43-f244-4249-ae34-6b8a95b89124")
 	)
 	(junction
+		(at 180.34 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da2ffb14-dd93-4a0e-90ca-04ade72d2c27")
+	)
+	(junction
+		(at 152.146 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db18baf8-9cb1-4fc3-893e-f6f4a7e0fa91")
+	)
+	(junction
 		(at 252.73 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5e88459-863b-4880-8065-becc6963d2d1")
+	)
+	(junction
+		(at 26.67 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f94f6c6b-1557-459c-a5bd-7a32ccc13cc0")
 	)
 	(wire
 		(pts
@@ -4228,6 +4383,16 @@
 			(type default)
 		)
 		(uuid "0071c49e-2e44-45bf-9178-50084c2ff265")
+	)
+	(wire
+		(pts
+			(xy 81.28 160.02) (xy 87.63 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "027dcb9a-8123-49c1-99c8-68da0f2b1b63")
 	)
 	(wire
 		(pts
@@ -4261,7 +4426,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 149.86) (xy 63.5 149.86)
+			(xy 59.69 149.86) (xy 60.96 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4341,6 +4506,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 38.1) (xy 242.57 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bff228b-fe17-4b70-818c-5d009c485e74")
+	)
+	(wire
+		(pts
 			(xy 57.15 38.1) (xy 59.69 38.1)
 		)
 		(stroke
@@ -4381,6 +4556,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 36.83) (xy 242.57 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7c4de2-b225-4cee-9c99-3eeec83b73f5")
+	)
+	(wire
+		(pts
 			(xy 63.5 149.86) (xy 63.5 152.4)
 		)
 		(stroke
@@ -4401,7 +4586,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 160.02) (xy 87.63 160.02)
+			(xy 76.2 160.02) (xy 81.28 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4521,7 +4706,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 68.58) (xy 156.21 68.58)
+			(xy 148.59 68.58) (xy 152.146 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4548,6 +4733,16 @@
 			(type default)
 		)
 		(uuid "5938cdc4-0dbb-46f9-96b9-041d221b6232")
+	)
+	(wire
+		(pts
+			(xy 242.57 38.1) (xy 242.57 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b03b377-4c3c-448d-9b98-f6e1c7cde2f3")
 	)
 	(wire
 		(pts
@@ -4648,6 +4843,16 @@
 			(type default)
 		)
 		(uuid "6d2ab1b2-4280-472e-a512-51cc0f067c42")
+	)
+	(wire
+		(pts
+			(xy 60.96 149.86) (xy 63.5 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e4c8c2e-fe69-44a9-b7a7-05b0344d058a")
 	)
 	(wire
 		(pts
@@ -4761,6 +4966,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 68.58) (xy 168.91 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8969a49e-8516-4d0b-a052-e7862138a299")
+	)
+	(wire
+		(pts
 			(xy 90.17 91.44) (xy 99.06 91.44)
 		)
 		(stroke
@@ -4831,16 +5046,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 68.58) (xy 168.91 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d966d2f-a2e4-4c9e-ae4b-1c8728eabffa")
-	)
-	(wire
-		(pts
 			(xy 180.34 54.61) (xy 186.69 54.61)
 		)
 		(stroke
@@ -4908,6 +5113,16 @@
 			(type default)
 		)
 		(uuid "afc96c2a-cf6c-4b24-8c91-30f3dd8838c8")
+	)
+	(wire
+		(pts
+			(xy 91.44 149.86) (xy 95.25 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afdaffc9-4ad1-4067-851b-0edd26f3fea7")
 	)
 	(wire
 		(pts
@@ -5011,7 +5226,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 149.86) (xy 95.25 149.86)
+			(xy 87.63 149.86) (xy 91.44 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5221,7 +5436,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 80.01) (xy 149.86 80.01)
+			(xy 142.24 80.01) (xy 149.86 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e87e2b82-1477-465c-9ab0-b721667e1493")
+	)
+	(wire
+		(pts
+			(xy 137.16 80.01) (xy 142.24 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5248,6 +5473,16 @@
 			(type default)
 		)
 		(uuid "ef4a9f7e-78ad-4c49-87b7-ea75c0e0e16f")
+	)
+	(wire
+		(pts
+			(xy 152.146 68.58) (xy 156.21 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f16e8def-14b6-48bf-866a-766ed3f29971")
 	)
 	(wire
 		(pts
@@ -6107,6 +6342,73 @@
 			(project ""
 				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 60.96 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "172ab2e9-0997-48bd-876a-9c9e53317b38")
+		(property "Reference" "TP5"
+			(at 59.69 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V"
+			(at 55.88 152.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "goatworks-footprint-library:tp-ev24"
+			(at 66.04 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 60.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6e8bb12-92f0-4321-8fbc-eaa9a786f004")
+		)
+		(instances
+			(project "pcb"
+				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -7185,6 +7487,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 152.146 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b81c13a-cfbc-41d8-bdfd-b0d9c03ab39a")
+		(property "Reference" "TP4"
+			(at 150.876 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SD"
+			(at 147.066 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "goatworks-footprint-library:tp-ev24"
+			(at 157.226 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.226 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 152.146 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de212fe3-3440-4750-b492-f49866214c9d")
+		)
+		(instances
+			(project "pcb"
+				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 180.34 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d3a7289-1f73-4ab8-b4df-bde0e5deed08")
+		(property "Reference" "TP8"
+			(at 182.372 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 183.134 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "goatworks-footprint-library:tp-ev24"
+			(at 180.34 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 180.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fb8b017-1784-466d-bae5-36d81e7a8eb1")
+		)
+		(instances
+			(project "pcb"
+				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 186.69 59.69 0)
 		(unit 1)
@@ -7245,6 +7681,73 @@
 			(project "pcb"
 				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 91.44 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "562a4f79-716d-4241-90b3-9e579d5bddc3")
+		(property "Reference" "TP6"
+			(at 90.17 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3V3"
+			(at 86.36 152.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "goatworks-footprint-library:tp-ev24"
+			(at 96.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 91.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84f9c9f7-0c30-4782-b5a9-e8d7e63510c9")
+		)
+		(instances
+			(project "pcb"
+				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -7444,6 +7947,76 @@
 			(project ""
 				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
 					(reference "LS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 237.49 40.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ee59de8-7392-4af4-b93d-0c391b9d8ad5")
+		(property "Reference" "C3"
+			(at 239.522 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 240.03 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 237.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 237.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "66e16e46-493b-4c68-ad93-d963457c3c86")
+		)
+		(pin "1"
+			(uuid "9ca5ab27-2bd2-4312-a94c-a8d46b38ca20")
+		)
+		(instances
+			(project "pcb"
+				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -8929,17 +9502,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 242.57 46.99 0)
+		(lib_id "power:GND")
+		(at 237.49 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dc901f81-9cb3-462c-a243-4d473c66dcdd")
-		(property "Reference" "#PWR013"
-			(at 242.57 50.8 0)
+		(uuid "dba4265b-7890-479b-8a88-84b10019b92f")
+		(property "Reference" "#PWR021"
+			(at 237.49 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8947,8 +9520,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 242.57 41.91 0)
+		(property "Value" "GND"
+			(at 237.49 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8956,7 +9529,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 46.99 0)
+			(at 237.49 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8965,7 +9538,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 46.99 0)
+			(at 237.49 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2cd5d9a-9498-449f-887f-7bebebbce937")
+		)
+		(instances
+			(project "pcb"
+				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 242.57 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc901f81-9cb3-462c-a243-4d473c66dcdd")
+		(property "Reference" "#PWR013"
+			(at 242.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 242.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8974,7 +9613,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 242.57 46.99 0)
+			(at 242.57 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9236,6 +9875,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 26.67 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9db6e14-f386-418a-9e88-129ed88e6a03")
+		(property "Reference" "TP1"
+			(at 25.654 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CLK"
+			(at 21.59 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "goatworks-footprint-library:tp-ev24"
+			(at 31.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 26.67 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47e3e17b-ad41-4df3-b0fe-b17e9a3a5e76")
+		)
+		(instances
+			(project "pcb"
+				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 81.28 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb42378b-9da5-40d0-b4c9-77efe3be75da")
+		(property "Reference" "TP2"
+			(at 80.01 162.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "goatworks-footprint-library:tp-ev24"
+			(at 86.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 81.28 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4650be87-5c4c-4438-a9a4-82ea0bcf9565")
+		)
+		(instances
+			(project "pcb"
+				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 161.29 129.54 270)
 		(mirror x)
@@ -9300,6 +10073,73 @@
 			(project "pcb"
 				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 142.24 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1ef1f1a-1f97-481e-8873-0a4cf0ffbb2c")
+		(property "Reference" "TP7"
+			(at 140.97 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "goatworks-footprint-library:tp-ev24"
+			(at 147.32 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 142.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c101689-848a-4f38-b30c-cc73fa71f536")
+		)
+		(instances
+			(project "pcb"
+				(path "/3c1b3755-18c9-4102-9b15-4dac5ede3237"
+					(reference "TP7")
 					(unit 1)
 				)
 			)

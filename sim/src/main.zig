@@ -22,6 +22,7 @@ const Camera = struct {
     const Self = @This();
     pos: mat.Vec3f,
     samples: [SAMPLES]i16 = undefined,
+    fourier: [SAMPLES]mat.Vec2f = undefined,
 };
 
 var sources = [_]SinSource{
@@ -67,6 +68,14 @@ pub fn main() !void {
     }
 
     for (cameras) |camera| {
+        for (camera.samples, 0..) |sample, i| {
+            for (camera.fourier, 0..) |*freq, j| {
+                freq = freq.add(mat.Vec2f.new(.{
+                    std.math.cos((i * std.math.pi) / (j + 1)) * sample,
+                    std.math.sin((i * std.math.pi) / (j + 1)) * sample,
+                }));
+            }
+        }
         std.debug.print("camera: {any}\n", .{camera});
     }
 }
